@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html amp>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="bootstrap.min.js"  ></script>
+	<script type="text/javascript" src="all.min.js"></script>
+	<script  type="text/javascript" src="myScript.js"></script>
+	<link rel="stylesheet" type="text/css"  href="all.min.css">
+	<link rel="icon" href="favicon" type="image-x-icon">
+
+	<title>BOOTSTRAP</title>
+</head>
+<body>
+	<!-- container-fluid -->
+
+		<div class="container-fluid">
+			<header>
+				<nav>
+						<div style="float: right;">
+								<input  type="button" name="btn-log"  value="Login">
+							<input type="button" name="btn-reg"  value="Create ">
+						</div>
+							
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="exam.html">Exam</a></li>
+						<li><a href="index.html">About</a></li>
+						<li><a href="index.html">Contact</a></li>
+					</ul>
+						
+
+				</nav>
+				
+			</header>
+
+			
+					<div class="col-md-6">
+							<img src="images/a.jpg" class="img-rounded img-responsive" alt="wardrop 
+							image";style="margin-top: 270px"s;  width="250" height="200">
+					</div>
+
+					<div class="col-md-6">
+							<img src="images/d.jpg" style="margin-top: 270px;
+							margin-left:370px;" class="img-circle img-responsive" alt="wardrop image" width="250" height="200">
+					</div>
+
+
+			
+
+				
+		</div>
+	<!-- container-fluid -->
+
+		<div class="container-fluid"> 
+			<!-- bootstrap alert -->
+
+			<!-- alert link -->
+			<div class="alert alert-success" >
+					<strong>success!</strong>You should<a href="about.html" class="alert-links">Read this messgae</a>	
+				</div>
+				<!-- /alert link -->
+
+		<!-- closing alert  -->
+		<div class="alert alert-success alert-dismssible">
+			<a class="close" data-dismiss="alert"  aria-label="close">&times;</a>
+			<strong>Success!</strong>indicates a successful or postive alert.
+
+		</div> 
+		<!-- closing alert  -->
+
+
+		<!-- alert animation -->
+		<div class="alert alert-success alert-dismssible fade fade.in">
+			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+				<p>Hello</p>
+		</div>
+
+		<!-- /bootstrap alert -->
+
+
+		<!-- boostrap button -->
+		<div>
+		<button type="button" >Register</button>
+		<button type="button" class="btn-info">Register</button>
+
+		<!-- note you can you this to link your form register -->
+		<button type="button" class="btn btn-info"><a href="#">Register</a></button>
+		</div>
+
+		<!-- Block level button -->
+			<button type="button" class="btn btn-primary btn-block" >Button1</button>
+		<!-- Block level button -->
+
+		<!-- active/disable buttons -->
+			
+		<button type="button" class="btn btn-primary active" >Active</button>
+		<button type="button" class="btn btn-primary disabled" >Disable</button>
+	<!-- active/disable buttons -->
+	<br>
+	<br>
+	<br>
+
+	<!-- button group -->
+	<div class="btn-group">
+		<button type="button" class="btn btn-primary">Apple</button>
+		<button type="button" class="btn btn-success">Samsung</button>
+		<button type="button" class="btn btn-danger">Sony</button>
+
+
+
+		
+	</div>
+	<!-- vertical button -->
+	<div class="btn-group-vertical">
+		<button type="button" class="btn btn-primary">Apple</button>
+		<button type="button" class="btn btn-success">Samsung</button>
+		<button type="button" class="btn btn-danger">Sony</button>
+	</div>
+
+	<!-- justified button -->
+	<div class="btn-group btn-group-justified">
+			<button type="button" class="btn btn-primary">Apple</button>
+			<button type="button" class="btn btn-success">Samsung</button>
+			<button type="button" class="btn btn-danger">Sony</button>
+		</div>
+	<!-- /button group -->
+		<!--/boostrap button -->
+
+		<!-- bootstrap collapse -->
+
+
+		<div class="container">
+			<h2>Simple Collapsible</h2>
+			<button type="button"  class=" btn btn-primary" data-toggle="collapse"
+			data-target="#demo">Simple Collapsible  </button>
+			<div id="demo" class="collapse" >jjdhdhjdnk</div>
+		</div>
+
+	<ul class="pager">
+		<li><a href="#">1</a></li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li><a href="#">4</a></li>
+		<li><a href="#">5</a></li>
+		<li><a href="about.html">.</a></li>
+		<li><a href="#">.</a></li>
+	</ul>
+		</div>
+		<!-- /container-fluid -->
+		<div class="container">
+			<form>
+				<fieldset>
+					<legend>Happy Birthday Mum</legend>
+					<input type="text" placeholder="Name" name="name">
+					<input type="text" placeholder="Name" name="name">
+					<input type="text" placeholder="Name" name="name">
+				</fieldset>
+			</form>
+		</div>
+
+		<!-- div Collapsible panel -->
+	
+		<div class="container">
+				<h2>Collapsible panel</h2>
+				<p>Click on the Collapsible to open and close it</p>
+				
+				<div class="panel-group">
+					<div class="panel panel-success">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" href="#collapse4">
+									Collapsible panel
+								</a>
+							</h4>
+						</div>
+						<div id="collapse4" class="panel-collapse collapse">
+							<div class="panel-body">
+								Panel Body
+							</div>
+							<div class="panel-footer">
+								Panel Footer
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="panel-group">
+						<div class="panel panel-success">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" href="#collapse5">
+										Collapsible panel2
+									</a>
+								</h4>
+							</div>
+							<div id="collapse5" class="panel-collapse collapse">
+								<div class="panel-body">
+									Panel Body
+								</div>
+								<div class="panel-footer">
+									Panel Footer
+								</div>
+							</div>
+						</div>
+					</div>
+		</div> 
+
+		<!--/ div collapsible -->
+
+		<!-- bootstrap accordion -->
+		<div class="panel-group" id="accordion">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+							Collapsible Group1
+						</a>
+					</h4>
+				</div>
+				<div id="collapse1" class="panel-collapse collapse-in">
+					<div class="panel-body">Hello world,hello Nigeria	
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<!-- <p>What is Javascript</p> -->
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapse" >
+							Hello
+							</a>
+						</h4>
+					</div>
+					<div id="collapse" class="panel-collapse collapse-in">
+						<div class="panel-body">Hello world,hello David	
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+								collapsible Group3
+							</a>
+						</h4>
+					</div>
+					<div id="collapse2" class="panel-collapse collapse-in">
+						<div class="panel-body">Hello world,hello World
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /collapsible panel -->
+
+		<!-- Bootstrap form -->
+	<div class="container-fluid">
+		<div class="col-md-6 col-xs-6 col-lg-6 col-sm-6">
+			<form action="e.php" method="POST">
+				<div class="form-group">
+					<label for="firstname">First Name:</label>
+					<input type="text" class="form-control" placeholder="first name" id="firstname" required>
+				</div>
+				<div class="form-group">
+						<label for="lastname">Last Name:</label>
+						<input type="text" class="form-control" placeholder="last name" id="lastname" required>
+				</div>
+				<div class="form-group">
+						<label for="address">Address:</label>
+						<input type="text" class="form-control" placeholder=" address" id="address" required>
+				</div>
+				
+				<label>Phone Number: 	</label>
+				<div class="container-fluid1">
+					<div class="col-md-1">
+						<div class="form-group">
+									<select class="form-control1" id="country code" required >
+											<option>+44</option>
+											<option>+1</option>
+											<option>+1</option>
+											<option>+23</option>
+											<option>+87</option>
+											<option>+897</option>
+											<option>+234</option>
+											<option>+233</option>
+											<option>+65</option>
+											<option>+91</option>
+									<select>
+									
+						</div>
+					</div>
+					<div class="col-md-11">
+						<div class="form-group">
+							<input type="tel" class="form-control" placeholder="Phone Number" id="phonenum" required>
+						</div>
+					</div>
+				</div>
+				
+				<div class="form-group">
+						<label for="email">Email:</label>
+						<input type="email" class="form-control" placeholder="email" id="address" required>
+				</div>
+				<div class="form-group">
+					<label>Nationality:</label>
+						<select class="form-control" id="nationality" required>
+							<option>United Kingdom</option>
+							<option>United State of America</option>
+							<option>Canada</option>
+							<option>Germany</option>
+							<option>China</option>
+							<option>Korea</option>
+							<option>Nigeria</option>
+							<option>Gahana</option>
+							<option>Eygpt</option>
+							<option>Japan</option>
+							<select>
+								
+				</div>
+
+				<div class="form-group">
+					<label for="pass">Password:</label>
+					<input type="password" class="form-control" name="Password" placeholder="password" id="pass"  maxlength="12" minlength="0"  required>
+					<span toggle="#pass" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+				</div>
+
+				<div class="form-group">
+						<label for="comment">Comment:</label>
+						<textarea  rows="15" class="form-control" maxlength="200" minlength="0" cols="85" id="comment">
+						</textarea>
+					</div>
+				<div class="radio">
+						<label>
+						<input type="radio" value="male"  name="gender"  id="gmale" checked>Male
+					</label>
+					</div>
+					<div class="radio">
+							<label>
+							<input type="radio" value="female"  name="gender" id="gfemale" >Female
+						</label>
+						</div>
+						<div class="radio">
+								<label >
+								<input type="radio" value="other" name="gender"  id="gother" >Other
+							</label>
+							</div>
+				<div class="form-group">
+						<input type="checkbox" checked>:If you have agreed to our terms and condition
+					</div>
+				<div class="form-group">
+						<input type="submit" class="btn btn-success btn-lg" value="submit" id="sub">
+					</div>
+			</form>
+
+			<!-- checkbox -->
+			<div class="checkbox">
+				<label><input type="checkbox" value="">Option1</label>
+				<label><input type="checkbox" value="">Option1</label>
+			</div>
+			<div class="checkbox">
+					<label><input type="checkbox" value="">Option2</label>
+			</div>
+			<div class="checkbox disabled">
+					<label><input type="checkbox" value="">Option3</label>
+			</div>
+			<!-- /checkbox -->
+
+	<!-- radio -->
+			<div class="radio">
+				<label><input type="radio" name="optradio" checked>option1</label>
+			</div>
+			<div class="radio">
+					<label><input type="radio" name="optradio" >option2</label>
+			</div>
+			<div class="radio disabled" >
+					<label><input type="radio" name="optradio" >option3</label>
+			</div>
+			<!-- /radio -->
+
+			<!-- select list -->
+			<div class="form-group">
+				<label for="selt">Select list:</label>
+				<select class="form-control" id="selt">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+				</select>
+			</div>
+	</div>
+	<!-- /bootstrap form -->
+
+		<div class="col-md-6 col-xs-6 col-lg-6 col-sm-6">
+			<img src="images/b.jpg" width="450" height="250" style="margin-left:250px">
+
+			
+
+		</div>
+
+
+	</div>
+		
+	<div>
+	<!-- bootstrap tabs  -->
+	<ul class="nav nav-tabs">
+		<li class="active"><a href="#">Home</a></li>
+		<li ><a href="#">About</a></li>
+		<li ><a href="#">Service</a></li>
+		<li ><a href="#">Contact</a></li>
+	</ul>
+	
+	
+	<!-- tabs with drop down menu  -->
+
+	<ul class="nav nav-tabs">
+		<li class="active"><a href="#">Home</a></li>
+		<li class="dropdown">
+			<a class="dropdown-toggle" data-toggle="dropdown" href="#">Service
+				<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="#">Car Maintainance</a></li>
+					<li><a href="#">Car Repair</a></li>
+				</ul>
+		</li>
+		<li><a href="#">About</a></li>
+	</ul>
+
+<!-- /bootstrap tabs  -->
+  </div>
+  <br><br>
+  <div>
+		<!-- bootstrap pills  -->
+		<ul class="nav nav-pills">
+			<li class="active"><a href="#">Home</a></li>
+			<li ><a href="#">About</a></li>
+			<li ><a href="#">Service</a></li>
+			<li ><a href="#">Contact</a></li>
+		</ul>
+		
+		
+		<!-- pills with drop down menu  -->
+	
+		<ul class="nav nav-pills">
+			<li class="active"><a href="#">Home</a></li>
+			<li class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Service
+					<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Car Maintainance</a></li>
+						<li><a href="#">Car Repair</a></li>
+					</ul>
+			</li>
+			<li><a href="#">About</a></li>
+		</ul>
+	
+	<!-- /bootstrap pills  -->
+	  </div>
+	  <br><br>
+  <div>
+	  <!-- bootstrap toggleable and dynamic tab  -->
+	  <ul class="nav nav-tabs">
+		  <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+		  <li ><a href="#menu1" data-toggle="tab">Menu1</a></li>
+		  <li ><a href="#menu2" data-toggle="tab">Menu2</a></li>
+	  </ul>
+	  <div class="tab-content">
+		  <div id="home" class="tab-pane active" >
+			  <h3>Home</h3>
+			  <p>Some content in the Home Div</p>
+		  </div>
+		  <div id="menu1" class="tab-pane">
+			  <h3>Menu1</h3>
+			  <p>Some content in Menu1 </p>
+		  </div>
+		  <div id="menu2" class="tab-pane">
+				<h3>Menu2</h3>
+				<p>Some content in Menu2 </p>
+			</div>
+	  </div>
+	<!-- /bootstrap toggleable and dynamic tab  -->
+	</div>
+	<br><br>
+	<div>
+		<!-- bootstrap toggleable and dynamic tab -->
+		<ul class="nav nav-tabs nav-justified">
+			<li class="active"><a href="#home1" data-toggle="tab">Home1</a></li>
+			<li ><a href="#menu11" data-toggle="tab">Menu11</a></li>
+			<li ><a href="#menu21" data-toggle="tab">Menu21</a></li>
+		</ul>
+		<div class="tab-content">
+			<div id="home1" class="tab-pane active" >
+				<h3>Home1</h3>
+				<p>Some content in the Home Div</p>
+			</div>
+			<div id="menu11" class="tab-pane">
+				<h3>Menu11</h3>
+				<p>Some content in Menu1 </p>
+			</div>
+			<div id="menu21" class="tab-pane">
+				  <h3>Menu21</h3>
+				  <p>Some content in Menu2 </p>
+			  </div>
+		</div>
+	  <!-- /bootstrap toggleable and dynamic tab -->
+	  </div>
+	  <br><br>
+	<div>
+		<!-- bootstrap toggleable and dynamic tab -->
+		<ul class="nav nav-tabs nav-stacked">
+			<li class="active"><a href="#home11" data-toggle="tab">Home11</a></li>
+			<li ><a href="#menu111" data-toggle="tab">Menu111</a></li>
+			<li ><a href="#menu211" data-toggle="tab">Menu211</a></li>
+		</ul>
+		<div class="tab-content">
+			<div id="home11" class="tab-pane active" >
+				<h3>Home11</h3>
+				<p>Some content in the Home Div</p>
+			</div>
+			<div id="menu111" class="tab-pane">
+				<h3>Menu111</h3>
+				<p>Some content in Menu1 </p>
+			</div>
+			<div id="menu211" class="tab-pane">
+				  <h3>Menu211</h3>
+				  <p>Some content in Menu211 </p>
+			  </div>
+		</div>
+	  <!-- /bootstrap toggleable and dynamic tab -->
+
+
+	  <!-- navigation-bar -->
+	  <nav class="navbar navbar-default">
+		  <div class="container-fluid">
+			  <div class="navbar-header">
+				  <a class="navbar-brand" href="#">Website Name</a>
+			  </div>
+			  <ul class="nav navbar-nav">
+				  <li class="active"><a href="#">Home</a></li>
+				  <li ><a href="#">Page1</a></li>
+				  <li ><a href="#">Page2</a></li>
+				  <li ><a href="#">Page3</a></li>  
+			  </ul>
+			</div>
+	  </nav>
+	  <!-- navbar-inverse -->
+	  <nav class="navbar navbar-inverse ">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">Website Name</a>
+				</div>
+				<ul class="nav navbar-nav ">
+					<li class="active"><a href="#">Home</a></li>
+					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">About
+						<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">David 1</a></li>
+							<li><a href="#">David 2</a></li>
+							<li><a href="#">David 3</a></li>
+						</ul>
+					</li>
+					<li ><a href="#">Page1</a></li>
+					<li ><a href="#">Page2</a></li>
+					<li ><a href="#">Page3</a></li>  
+				</ul>
+			  </div>
+		</nav>
+
+		<nav>
+			<ul class="nav navbar-nav  navbar-right">
+				<li><a href="#"><span class="glyphicon glyphicon-user"></span>Signup</a></li>
+				<li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+			</ul>
+		</nav>
+<!-- /navigation-bar -->
+		
+					<!-- <button class="btn  btn-lg"><a href="#"><span class="glyphicon glyphicon-user"></span>Signup</a></button>
+				<button><a href="#"><span class="glyphicon glyphicon-log-in"></span>Login</a></button> -->
+
+		<!-- navbar forms -->
+		<form class="navbar-form navbar-left" >
+			<div class="form-group">
+				<input type="text" class="from-control" placeholder="Search">
+			</div>
+			<button type="submit" class="btn btn-default">submit
+
+			</button>
+
+		</form>
+		<!-- navbar forms -->
+
+		<!-- fixed navigation bar -->
+		 <nav class="navbar navbar-inverse navbar-fixed-top">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="#">Website Name</a>
+					</div>
+					<ul class="nav navbar-nav ">
+						<li class="active"><a href="#">Home</a></li>
+						<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">About
+							<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">David 1</a></li>
+								<li><a href="#">David 2</a></li>
+								<li><a href="#">David 3</a></li>
+							</ul>
+						</li>
+						<li ><a href="#">Page1</a></li>
+						<li ><a href="#">Page2</a></li>
+						<li ><a href="#">Page3</a></li>  
+					</ul>
+					<ul>
+						<li> <input type="button" data-target="#mymodal" data-toggle="modal" value="register" class="btn btn-success" style="margin-top:10px;float:right;"></li>
+					</ul>
+				  </div>		
+			</nav>
+
+
+			<!-- <nav class="navbar navbar-inverse navbar-fixed-bottom">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<a class="navbar-brand" href="#">Website Name</a>
+						</div>
+						<ul class="nav navbar-nav ">
+							<li class="active"><a href="#">Home</a></li>
+							<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">About
+								<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">David 1</a></li>
+									<li><a href="#">David 2</a></li>
+									<li><a href="#">David 3</a></li>
+								</ul>
+							</li>
+							<li ><a href="#">Page1</a></li>
+							<li ><a href="#">Page2</a></li>
+							<li ><a href="#">Page3</a></li>  
+						</ul>
+					</div>
+			</nav>  -->
+				<!-- /fixed navigation bar -->
+
+		<!-- collapsing the navbar -->
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">Website Name</a>
+				</div>
+				<button class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button> 
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu1
+							<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Page1</a></li>
+								<li><a href="#">Page2</a></li>
+								<li><a href="#">Page3</a></li>
+							</ul>
+						</li>
+					</ul>
+					<form class="navbar-form navbar-right" action="page.php">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Search">
+						</div>
+						<button type="submit" class="btn btn-default">Submit
+						</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+
+	   <!-- Bootstrap modal -->
+	   <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mymodal">open</button>
+	   <div id="mymodal" class="modal fade"  role="dialog">
+		   <div class="modal-dialog modal-lg">
+			   <div class="modal-content">
+				   <div class="modal-header">
+					   <button type="button" class="close" data-dismiss="modal">&times;</button>
+					   <h4 class="modal-title">Register Form</h4>
+				   </div>
+				   <div class="modal-body">
+					   <!-- <div><img src="images/b.jpg" alt="image not found" width="200" height="300"></div> -->
+					   <form class="form-group">
+						   <label for="Lname">First Name:</label>
+						   <input type="text" id="Lname" placeholder="First Name" class="form-control" autofocus>
+
+						   <label for="Lname">Last Name:</label>
+						   <input type="text" id="Lname" placeholder="Last Name" class="form-control">
+
+						   <label for="Email">Email:</label>
+						   <input type="email" id="Email" placeholder="Email" class="form-control">
+
+						   <label for="Psw">Password:</labe>
+							<input type="password" id="Psw" placeholder="Password" class="form-control">
+							<p><input type="checkbox" >Agree to our<a href="#">Term&Condition</a></p>
+					   </form>
+				   </div>
+				   <div class="modal-footer">
+					   <input type="button" value="Submit" class="btn btn-default">
+					    <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Submit</button> -->
+				   </div>
+			   </div>
+		   </div>
+	   </div>
+	   <!-- /Bootstrap modal -->
+
+	   <!-- Bootstrap tooltip -->
+	   <a href="#" data-toggle="tooltip" title="Hoory!" data-placement="right">Hover  over You</a>
+	   <script>
+		   $(document).ready(function(){
+			   $('[data-toggle="tooltip"]').tooltip();
+		   })
+	   </script>
+	   <!-- /Bootstrap tooltip -->
+
+	    <!-- bootstrap popover -->
+	   <a href="#" data-toggle="popover" title="Popover Header" data-content="Some Content inside the popover">Toggle Popover</a>
+	   <script>
+		   $(document).ready(function () {
+		   $('[data-toggle="Popover"]').popover();   
+		   });
+	   </script> 
+
+ <a href="#" data-toggle="popover" title="Popover Header" data-trigger="focus" data-content="Some Content inside the popover">Toggle Popover</a>
+<script>
+    $(document).ready(function () {
+	$('[data-toggle="popover"]').popover();	
+	});
+</script>
+<!-- /bootstrap popover -->
+
+</body>
+</html>
